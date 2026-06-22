@@ -61,9 +61,14 @@ $current_page = basename($_SERVER['PHP_SELF']);
             background: linear-gradient(135deg, #2d8a4e 0%, #1b5e20 100%);
             box-shadow: 0 2px 4px rgba(45, 138, 78, 0.2);
         }
-    </style>
-</head>
+    </head>
 <body>
+<script>
+    if (localStorage.getItem('strict-wireframe') === 'active') {
+        document.body.classList.add('strict-wireframe');
+    }
+</script>
+
 
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg sticky-top">
