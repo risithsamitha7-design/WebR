@@ -1,0 +1,13 @@
+# Ignore IDE metadata / cache
+.idea/
+.vscode/
+.git/
+.gemini/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
